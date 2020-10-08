@@ -93,7 +93,7 @@ running=True
 while running:
     # RGB= red, green, blue
     screen.fill((0, 255, 255))
-    #background image
+    #background images
     screen.blit(background,(0,0))
 
     for event in pygame.event.get():
